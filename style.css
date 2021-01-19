@@ -1,0 +1,48 @@
+@media only screen and (max-width: 410px) {
+	body {
+		background-color: red;
+		font-size: 50%;
+		text-align: justify;
+	}
+}
+
+
+
+@media only screen and (min-width: 410px) and (max-width: 768px) {
+	body {
+		background-color: green;
+		font-size: 66%;
+		text-align: justify;
+	}
+
+	#small {
+		display: block;
+		float: left;
+		width: 66%;
+	}
+
+	#medium{
+		display: block;
+		float: right;
+		width: 33%;
+	}
+
+	#large {
+		display: inline-block;
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {
+	body {
+		display: flex;
+	  	background-color: blue;
+		font-size: 100%;
+		text-align: justify;
+	}
+
+	p {
+		padding: 5px;
+	}
+}
